@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: equip
-    env: node
-    buildCommand: |
-      curl https://install.meteor.com/ | sh
-      npm install
-    startCommand: meteor run
