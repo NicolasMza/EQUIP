@@ -1,9 +1,13 @@
 {
   "name": "dataobs",
+  ...
+
+  "name": "dataobs",
   "version": "2.0.0",
   "description": "Redesign of EQUIP App for UW-Madison.",
   "main": "index.js",
   "scripts": {
+    "start": "meteor run",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-server": "meteor test --full-app --driver-package tmeasday:acceptance-test-driver --port 3005",
     "chimp-watch": "chimp --ddp=http://localhost:3005 --watch --path=tests/e2e/features",
