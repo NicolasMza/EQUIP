@@ -1,8 +1,5 @@
 {
   "name": "dataobs",
-  ...
-
-  "name": "dataobs",
   "version": "2.0.0",
   "description": "Redesign of EQUIP App for UW-Madison.",
   "main": "index.js",
