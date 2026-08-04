@@ -1,4 +1,5 @@
 FROM node:18
+ENV METEOR_ALLOW_SUPERUSER=true
 
 # Install Meteor
 RUN curl https://install.meteor.com/ | sh
