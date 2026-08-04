@@ -17,4 +17,4 @@ RUN METEOR_ALLOW_SUPERUSER=true meteor npm install --allow-superuser
 EXPOSE 3000
 
 # Start Meteor
-CMD ["meteor", "run", "--port", "3000", "--allow-superuser"]
+CMD ["meteor", "run", "--production", "--port", "3000", "--allow-superuser"]
