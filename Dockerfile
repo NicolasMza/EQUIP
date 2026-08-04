@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . /app
 
 # Install NPM dependencies
-RUN meteor npm install
+RUN METEOR_ALLOW_SUPERUSER=true meteor npm install --allow-superuser
 
 # Expose port
 EXPOSE 3000
